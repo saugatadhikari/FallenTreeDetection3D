@@ -1,0 +1,3 @@
+python /home/adhiksa@iu.edu/Research/PointCloud/Models/Pointnet_Pointnet2_pytorch-master/train_6000_pts_fg_bg_600_trees_ignore_handled.py --epoch=150 --model="pointnet2_part_seg_msg" --tag="rgbi_4000_pts_overlap_padding_FOCAL_LOSS_FG_BG_ALPHA_None_Gaussian_Wt_True_600_trees_FOLD_3_LATEST" --rgbi_channel --batch_size=8 --npoint=4000 --fold_id=3
+
+python /home/adhiksa@iu.edu/Research/PointCloud/Models/Pointnet_Pointnet2_pytorch-master/train_6000_pts_fg_bg_600_trees_ignore_handled.py --epoch=150 --model="pointnet2_part_seg_msg" --tag="rgbi_4000_pts_overlap_padding_FOCAL_LOSS_FG_BG_ALPHA_None_Gaussian_Wt_True_600_trees_FOLD_4_LATEST" --rgbi_channel --batch_size=8 --npoint=4000 --fold_id=4
